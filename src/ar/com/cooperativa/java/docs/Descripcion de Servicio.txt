@@ -1,0 +1,14 @@
+Servicio de Clientes
+Nombre          port    input               output
+save            8101    Cliente             id
+remove          8102    Cliente             true/false
+getAll          8103    void                List<Cliente>
+update          8104    Cliente             id
+
+
+Servicio de Cuentas
+Nombre          port    input               output
+save            8201    Cuenta              id
+remove          8202    Cuenta              true/false
+getAll          8203                        List<Cuenta>
+update          8204    Cuenta              id
